@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FC7B771727F4C33800233378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B771627F4C33800233378 /* AppDelegate.swift */; };
-		FC7B771927F4C33800233378 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B771827F4C33800233378 /* SceneDelegate.swift */; };
 		FC7B771B27F4C33800233378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B771A27F4C33800233378 /* ViewController.swift */; };
-		FC7B771E27F4C33800233378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7B771C27F4C33800233378 /* Main.storyboard */; };
 		FC7B772027F4C33800233378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7B771F27F4C33800233378 /* Assets.xcassets */; };
 		FC7B772327F4C33800233378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7B772127F4C33800233378 /* LaunchScreen.storyboard */; };
+		FC7B772B27F4C46D00233378 /* CoctailsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B772A27F4C46D00233378 /* CoctailsListViewController.swift */; };
+		FC7B772D27F4C92C00233378 /* CoctailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B772C27F4C92C00233378 /* CoctailViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC7B771327F4C33800233378 /* Cocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7B771627F4C33800233378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC7B771827F4C33800233378 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FC7B771A27F4C33800233378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC7B771D27F4C33800233378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC7B771F27F4C33800233378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7B772227F4C33800233378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7B772427F4C33800233378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7B772A27F4C46D00233378 /* CoctailsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsListViewController.swift; sourceTree = "<group>"; };
+		FC7B772C27F4C92C00233378 /* CoctailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				FC7B771627F4C33800233378 /* AppDelegate.swift */,
-				FC7B771827F4C33800233378 /* SceneDelegate.swift */,
+				FC7B772A27F4C46D00233378 /* CoctailsListViewController.swift */,
+				FC7B772C27F4C92C00233378 /* CoctailViewCell.swift */,
 				FC7B771A27F4C33800233378 /* ViewController.swift */,
-				FC7B771C27F4C33800233378 /* Main.storyboard */,
 				FC7B771F27F4C33800233378 /* Assets.xcassets */,
 				FC7B772127F4C33800233378 /* LaunchScreen.storyboard */,
 				FC7B772427F4C33800233378 /* Info.plist */,
@@ -127,7 +127,6 @@
 			files = (
 				FC7B772327F4C33800233378 /* LaunchScreen.storyboard in Resources */,
 				FC7B772027F4C33800233378 /* Assets.xcassets in Resources */,
-				FC7B771E27F4C33800233378 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +137,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7B772B27F4C46D00233378 /* CoctailsListViewController.swift in Sources */,
 				FC7B771B27F4C33800233378 /* ViewController.swift in Sources */,
+				FC7B772D27F4C92C00233378 /* CoctailViewCell.swift in Sources */,
 				FC7B771727F4C33800233378 /* AppDelegate.swift in Sources */,
-				FC7B771927F4C33800233378 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FC7B771C27F4C33800233378 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC7B771D27F4C33800233378 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC7B772127F4C33800233378 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +286,6 @@
 				INFOPLIST_FILE = Cocktails/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +313,6 @@
 				INFOPLIST_FILE = Cocktails/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
